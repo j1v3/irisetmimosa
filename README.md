@@ -1,3 +1,3 @@
 # Iris et Mimosa
 
-Apperçu d'une solution e-commerce légère et fiable pour un artisan-commerçant basé sur Prestashop 1.4
+Overview of a light and reliable e-commerce solution for a craftsman-merchant based on Prestashop 1.4
