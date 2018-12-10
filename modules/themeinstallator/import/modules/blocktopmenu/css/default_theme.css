@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/** 
+ * Default CSS Drop-Down Menu Theme
+ *
+ * @file		default.css
+ * @name		Default
+ * @version		0.1.1
+ * @type		transitional
+ * @browsers	Windows: IE7+, Opera7+, Firefox3+
+ *				Mac OS: Safari2+, Firefox3+
+ *
+ * @link		http://www.lwis.net/free-css-drop-down-menu
+ * @copyright	2008-2012 Live Web Initiatives, http://www.lwis.net
+ *
+ */
+
+
+/* -- Base drop-down styling -- */
+
+ul.dropdown {
+	font-weight: bold;
+}
+
+	ul.dropdown li {
+		padding: 0px;
+		border: none;
+		color: #fff;
+		margin-right: 30px;
+		line-height: 42px;
+		font-size: 1.3em;
+	}
+
+	/* menu fix */
+	@media screen and (min-width: 772px) and (max-width: 1000px) {
+		ul.dropdown li {
+			line-height: 40px;
+		}
+
+		ul.dropdown ul {
+			left: 10px;
+		}
+	}
+
+	ul.dropdown li.hover,
+	ul.dropdown li:hover,
+	ul.dropdown li.on {
+		text-decoration: none;
+	}
+
+	ul.dropdown a:link,
+	ul.dropdown a:visited	{ display: block; padding: 0 20px; color: #fff; text-decoration: none; text-shadow: 0 1px 1px #871C01; }
+	ul.dropdown a:hover		{ text-decoration: underline; }
+	ul.dropdown a:active	{ }
+
+	/* -- level mark -- */
+	ul.dropdown ul {
+		width: 185px;
+		padding: 10px;
+		margin-top: 0;
+		background: #fff;
+
+		box-shadow: 1px 1px 10px #666;
+		-moz-box-shadow: 1px 1px 5px #666;
+		-webkit-box-shadow: 1px 1px 5px #666;
+	}
+
+		ul.dropdown ul li {
+			width: 98%;
+			line-height: 24px;
+			padding: 3px;
+			font-weight: normal;
+			border-bottom: 1px dotted #ccc;
+			font-size: 12px;
+		}
+
+		ul.dropdown ul li.hover,
+		ul.dropdown ul li:hover,
+		ul.dropdown ul li.on {
+			text-decoration: none;
+			background: #FCF3E2;
+		}
+
+		ul.dropdown ul a:link,
+		ul.dropdown ul a:visited	{ padding: 0; display: block; color: #555; text-decoration: none; text-shadow: 0 1px 1px #fff; }
+		ul.dropdown ul a:hover		{ color: #000; }
+		ul.dropdown ul a:active	{ }

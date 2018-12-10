@@ -1,0 +1,10 @@
+/* top menu shadow fix */
+ul.dropdown ul {
+	border: 1px solid #f4f4f4;
+}
+
+/* search box */
+#header_right #search_block_top input.search_query {
+	padding-top: 6px;
+	height: 19px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<block>
+	<slide>
+		<img>banner1.png</img>
+		<url></url>
+	</slide>
+	<slide>
+		<img>banner1_2.png</img>
+		<url></url>
+	</slide>
+</block>

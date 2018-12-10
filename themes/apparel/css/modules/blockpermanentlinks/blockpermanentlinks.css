@@ -1,0 +1,26 @@
+/* block top links */
+ul#header_links {
+	margin: 4px 5px 0 10px;
+	list-style-type: none;
+	float: left
+}
+#header_links li {
+	float: left;
+	width: 66px
+}
+#header_links a {
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	color: #595a5e;
+	text-align: center;
+	text-decoration: none;
+	background: #3E3E3E;
+	color: #999;
+	margin-right: 5px;
+}
+
+#header_links a:hover {
+	background: #5c5c5c;
+	color: #fff;
+}

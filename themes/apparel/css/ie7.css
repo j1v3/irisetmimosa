@@ -1,0 +1,38 @@
+/* top menu shadow fix */
+ul.dropdown ul {
+	border: 1px solid #f4f4f4;
+}
+
+/* search box */
+#header_right #search_block_top input.search_query {
+	padding-top: 6px;
+	height: 19px;
+	color: #000;
+}
+
+/* logo */
+#header_logo {
+	display: block;
+	margin-top: 38px;
+	margin-left: -170px;
+}
+
+img.logo {
+	float: none;
+}
+
+/* header & z-index */
+#header_wide {
+	height: 165px;
+	position: relative;
+	z-index: 999;
+}
+
+#page {
+	position: relative;
+}
+
+/* product page */
+#primary_block #pb-right-column {
+	width: 40%;
+}

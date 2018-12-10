@@ -1,0 +1,32 @@
+/* block top search */
+#search_block_top {
+	position:absolute;
+	top:44px;
+	left:0;
+}
+#search_block_top p {padding:0;}
+#search_block_top #search_query_top {
+	padding:0 5px;
+	height:23px;
+	width:215px;/* 310 */
+	border:none;
+	border-radius:10px;
+	color:#666;
+	background:#acadac;
+	float: left;
+}
+
+#search_block_top .button {
+	border:none;
+	border-radius:10px;
+	color:#fff;
+	text-transform:uppercase;
+	background:#1b5508;
+	float: left;
+	height: 24px;
+	width:68px;
+	margin-left:8px;
+	font-size:11px;
+
+}
+

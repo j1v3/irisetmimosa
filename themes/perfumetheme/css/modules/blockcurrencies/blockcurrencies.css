@@ -1,0 +1,63 @@
+/* block top currencies */
+#header_right #currencies_block_top {
+	float:right;
+	margin: 10px 28px 0 0;
+	padding:0;
+	width:94px;
+	height:16px;
+	border:1px solid #ddd;
+	
+	background: none repeat scroll 0 0 #000;
+}
+#header_right #currencies_block_top p {
+	clear: left;
+	padding-right:29px;
+	font: 11px Arial,Verdana,sans-serif;
+	color: #ccc;
+	text-align: right;
+	background:url(../../../img/arrow.png) no-repeat scroll right 1px transparent;
+	height:18px;
+	top:-1px;
+	width:60px;
+	padding-top:1px;
+}
+#currencies_block_top ul#first-currencies li {
+	margin-right: 3px
+}
+#currencies_block_top ul#first-currencies li.selected {
+	opacity: 1 !important;
+}
+#currencies_block_top ul#first-currencies li.selected a{}
+/*languages with jquery*/
+#setCurrency {
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+}
+#setCurrency p {
+	position: relative;
+	top: 0;
+	margin-left: 5px;
+	padding: 0;
+}
+#setCurrency p img {
+	padding-left: 5px;
+}
+#setCurrency .currencies_ul{
+	display:none;
+	z-index: 10000;
+	padding:10px;
+	list-style-type:none;
+}
+#setCurrency .currencies_ul_hover{
+	display:block;
+	z-index: 5000;
+	position:absolute;
+	right:3px;
+	padding:5px 10px;
+	height:auto;
+	text-align: center;
+    width: auto;
+	background:#000000;
+}
+#setCurrency .currencies_ul_hover a {color:#fff;}
